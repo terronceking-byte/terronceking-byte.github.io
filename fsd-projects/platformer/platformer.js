@@ -42,14 +42,18 @@ $(function () {
     // TODO 3 - Create Collectables
     createCollectable("grace",850,250,0.0,0.0);
     createCollectable("grace",250,650,0.0,0.0);
-    createCollectable("grace",450,6000,0.0,0.0);
-    createCollectable();
-    createCollectable();
+    createCollectable("grace",450,550,0.0,0.0);
+    createCollectable("grace",600,440,0.0,0.0);
+    createCollectable("grace",700,350,0.0,0.0);
 
 
 
     
     // TODO 4 - Create Cannons
+    createCannon("right",550,800);
+    createCannon("bottom",800,500);
+    createCannon("top",250,800);
+    createCannon("right",550,800);
 
 
     
